@@ -68,3 +68,9 @@ gem install gist
 
 # lolcommits
 gem install lolcommits
+
+# utorrent
+# i dunno figure it out
+
+# vlc
+# http://mirror.wdc1.us.leaseweb.net/videolan/vlc/2.2.1/macosx/vlc-2.2.1.dmg
