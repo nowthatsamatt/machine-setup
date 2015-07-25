@@ -34,10 +34,9 @@ echo "[default]" >> ~/.aws/config
 echo "region=us-east-1" >> ~/.aws/config
 echo "output=json" >> ~/.aws/config
 
-# tmux
+# some utilities
 brew install tmux
-
-# irssi
+brew install wget
 brew install irssi
 
 # Install Virtualbox
@@ -74,3 +73,5 @@ gem install lolcommits
 
 # vlc
 # http://mirror.wdc1.us.leaseweb.net/videolan/vlc/2.2.1/macosx/vlc-2.2.1.dmg
+
+# symlink in your stuff
