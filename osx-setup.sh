@@ -38,6 +38,7 @@ echo "output=json" >> ~/.aws/config
 brew install tmux
 brew install wget
 brew install irssi
+brew install watch
 
 # Install Virtualbox
 cd ~/Downloads/
