@@ -39,6 +39,7 @@ brew install tmux
 brew install wget
 brew install irssi
 brew install watch
+brew install tintin
 
 # Install Virtualbox
 cd ~/Downloads/
