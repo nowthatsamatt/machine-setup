@@ -36,4 +36,4 @@ brew install packer
 # gist
 gem install gist
 
-# symlink in your stuff
+# install dropbox and symlink in your dotfiles/directories
