@@ -43,6 +43,7 @@ gem install hiera-eyaml
 gem install json
 
 # install dropbox
+#brew cask install dropbox
 
 # dotfiles and directories
 echo -n "Enter your OSX username and press [ENTER]: "
@@ -70,3 +71,15 @@ ln -s /Users/${username}/Dropbox/tubemogul/configs/vimrc ~/.vimrc
 ln -s /Users/${username}/Dropbox/tubemogul/configs/vscode/ ~/.vscode
 ln -s /Users/${username}/Dropbox/tubemogul/configs/vsql_history ~/.vsql_history
 ln -s /Users/${username}/Dropbox/tm-repos/ ~/tm
+
+# install other software
+#vscode
+#evernote
+#slack
+#apache directory studio
+#wireshark
+#chrome
+#firefox
+#spotify
+#outlook
+#iterm2
