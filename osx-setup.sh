@@ -2,7 +2,14 @@ install via safari: chrome
 install via app store: evernote, 1password
 install via chrome: authy, iterm2, dropbox
 
-system preferences
+system preferences:
+keyboard
+  -> key repeat (fast)
+  -> delay until repeat (short)
+  -> touchbar shows
+    expanded control strip
+  -> customize control strip
+    click and drag siri off the touchbar
 
 
 #!/bin/bash -eux
