@@ -1,42 +1,48 @@
+install via safari: chrome
+install via app store: evernote, 1password
+install via chrome: authy, iterm2, dropbox
+
+system preferences
+
+
 #!/bin/bash -eux
 # Install Xcode and Xcode Command Line Tools
-xcode-select --install
+#xcode-select --install # THIS DOESNT WORK
 
 # Install Brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/binary
+#brew tap homebrew/binary # THIS DOESNT WORK
 brew update
 
 # git
-brew install git
-echo -n "Enter your full name for git and press [ENTER]: "
-read fullname
-echo -n "Enter your email address for git and press [ENTER]: "
-read emailaddress
-git config --global user.name "$fullname"
-git config --global user.email "$emailaddress"
+#brew install git
+#echo -n "Enter your full name for git and press [ENTER]: "
+#read fullname
+#echo -n "Enter your email address for git and press [ENTER]: "
+#read emailaddress
+git config --global user.name "Matthew Cupples"
+git config --global user.email "matt.cupples@tubemogul.com"
 
-sudo easy_install pip
-sudo pip install awscli
-sudo pip install yamllint
-sudo pip install python-novaclient
-sudo pip install python-keystoneclient
-sudo pip install python-neutronclient
-sudo pip install python-cinderclient
-sudo pip install boto
-sudo pip install boto3
+#sudo easy_install pip
+#sudo pip install awscli
+#sudo pip install yamllint
+#sudo pip install python-novaclient
+#sudo pip install python-keystoneclient
+#sudo pip install python-neutronclient
+#sudo pip install python-cinderclient
+#sudo pip install boto
+#sudo pip install boto3
 
 brew install tmux
-brew install wget
-brew install irssi
+#brew install wget
+#brew install irssi
 brew install watch
-brew install gnupg
-brew install wget
+#brew install gnupg
 brew install jq
-brew install ipython
-brew install puppet-lint
+#brew install ipython
+#brew install puppet-lint
 brew install parallel
-brew install packer
+#brew install packer
 
 gem install gist
 gem install hiera-eyaml
